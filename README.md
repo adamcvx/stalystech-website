@@ -23,4 +23,4 @@ The contact form uses Netlify Forms and will be detected at deploy time.
 
 ## Before going live
 
-Replace the product CTA destinations if you want direct checkout links. The current buttons route users to the site contact form.
+Product purchase buttons are wired to Paddle Checkout through `paddle-config.js`. See `SETUP_COMMERCE_CONTACT.md` for Paddle, n8n fulfillment, and contact setup.

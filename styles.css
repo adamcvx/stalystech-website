@@ -154,3 +154,22 @@ h2 { font-size: clamp(38px, 4.8vw, 64px); }
   .footer-bottom { flex-direction: column; gap: 8px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+/* Commerce + form feedback */
+.purchase-btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+.purchase-btn:disabled { opacity: .6; cursor: wait; }
+.form-status { min-height: 1.4em; margin: 0; color: #8fd3ff; font-size: .92rem; }
+.success-page { min-height: 100vh; background: radial-gradient(circle at 50% 0%, #0e2944 0, #07111d 45%, #03080f 100%); }
+.success-wrap { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0 80px; }
+.success-card { margin-top: 80px; padding: clamp(28px, 5vw, 56px); border: 1px solid rgba(115,195,255,.25); border-radius: 24px; background: rgba(7,17,29,.78); box-shadow: 0 24px 80px rgba(0,0,0,.35); }
+.success-card h1 { margin: 10px 0 16px; font-size: clamp(2rem, 5vw, 4rem); }
+.success-card > p { color: #b9d8ef; line-height: 1.7; }
+#download-area { margin: 28px 0 20px; }
+.delivery-note { padding: 18px; border: 1px solid rgba(115,195,255,.18); border-radius: 14px; background: rgba(58,148,220,.07); }

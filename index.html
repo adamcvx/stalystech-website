@@ -17,7 +17,7 @@
     <div class="container nav-wrap">
       <a class="brand" href="#top" aria-label="StalysTech home">
         <img class="brand-mark" src="assets/stalystech-s-mark.png" alt="" aria-hidden="true" />
-        <span class="brand-name">talysTech</span>
+        <span class="brand-name">StalysTech</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
@@ -73,28 +73,38 @@
 
     <section class="section products" id="products">
       <div class="container section-head">
-        <div><p class="eyebrow">STALYSTECH PRODUCTS</p><h2>Practical systems for governed AI operations.</h2></div>
-        <p>Built to be adopted, adapted, and put to work — not left as theory.</p>
+        <div><p class="eyebrow">STALYSTECH PRODUCTS</p><h2>Build, govern, and improve autonomous AI-agent operations.</h2></div>
+        <p>Practical digital resources built from the systems, procedures, and operating patterns used by StalysTech.</p>
       </div>
       <div class="container product-stack">
         <article class="product-card">
-          <div class="product-media"><img src="assets/StalysTech_Product_01.png" alt="StalysTech Agent Governance Starter Pack" loading="lazy" /></div>
+          <div class="product-media"><img src="assets/Product_Cover_Operating_Playbook.png" alt="The Autonomous AI-Agent Company Operating Playbook and Template Kit" loading="lazy" /></div>
           <div class="product-body">
-            <span class="product-kicker">STARTER PACK</span>
-            <h3>Agent Governance Starter Pack</h3>
-            <p>A practical foundation for operating autonomous AI agents with clear identity, governed approvals, auditable tasks, and accountable outcomes.</p>
-            <div class="tag-row"><span>Templates</span><span>Governance</span><span>Best practices</span></div>
-            <div class="product-foot"><strong>$1</strong><a class="text-link" href="#contact">Get access →</a></div>
+            <span class="product-kicker">OPERATING PLAYBOOK + TEMPLATE KIT</span>
+            <h3>The Autonomous AI-Agent Company Operating Playbook</h3>
+            <p>A complete operating playbook for running a lean, self-sustaining company staffed by AI agents, with governance, workforce design, systems, workflows, revenue discipline, and ready-to-use templates.</p>
+            <div class="tag-row"><span>Operating model</span><span>Governance</span><span>Templates</span></div>
+            <div class="product-foot"><strong>Instant digital delivery</strong><button class="text-link purchase-btn" type="button" data-product="operating_playbook">Buy & download →</button></div>
           </div>
         </article>
         <article class="product-card product-card-reverse">
-          <div class="product-media"><img src="assets/StalysTech_Product_02.png" alt="StalysTech Agent Governance Operating Pack" loading="lazy" /></div>
+          <div class="product-media"><img src="assets/Product_Cover_Starter_Kit.png" alt="Autonomous AI-Agent Company Starter Kit" loading="lazy" /></div>
           <div class="product-body">
-            <span class="product-kicker">OPERATING PACK</span>
-            <h3>Agent Governance Operating Pack</h3>
-            <p>A complete, ready-to-adopt operating system for governing autonomous AI agents in production, including escalation, capability, audit, and review playbooks.</p>
-            <div class="tag-row"><span>Frameworks</span><span>Playbooks</span><span>Operating standards</span></div>
-            <div class="product-foot"><strong>Digital pack</strong><a class="text-link" href="#contact">Request details →</a></div>
+            <span class="product-kicker">STARTER KIT</span>
+            <h3>Autonomous AI-Agent Company Starter Kit</h3>
+            <p>A practical, ready-to-use starter kit for building and operating an autonomous AI-agent company, including proven frameworks, templates, governance controls, and real-world examples.</p>
+            <div class="tag-row"><span>Frameworks</span><span>Ready-to-use templates</span><span>Governance</span></div>
+            <div class="product-foot"><strong>Instant digital delivery</strong><button class="text-link purchase-btn" type="button" data-product="starter_kit">Buy & download →</button></div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img src="assets/Product_Cover_Agent_Ops_Briefing.png" alt="Agent Ops Briefing Pack" loading="lazy" /></div>
+          <div class="product-body">
+            <span class="product-kicker">FOUR-BRIEFING PACK</span>
+            <h3>Agent Ops Briefing Pack</h3>
+            <p>Four focused briefings for stronger autonomous-agent operations: escalation, durable audit trails, identity and least privilege, and oversight that turns incidents into lasting safeguards.</p>
+            <div class="tag-row"><span>Escalation</span><span>Audit</span><span>Identity & oversight</span></div>
+            <div class="product-foot"><strong>Instant digital delivery</strong><button class="text-link purchase-btn" type="button" data-product="agent_ops_briefing">Buy & download →</button></div>
           </div>
         </article>
       </div>
@@ -166,7 +176,7 @@
             </select>
           </label>
           <label>Message<textarea name="message" rows="5" required></textarea></label>
-          <button class="btn btn-primary" type="submit">Send message</button>
+          <button class="btn btn-primary" type="submit">Send message</button><p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
         </form>
       </div>
     </section>
@@ -181,6 +191,8 @@
     <div class="container footer-bottom"><span>© <span id="year"></span> StalysTech</span><span>People • Agents • Systems • A brighter tomorrow</span></div>
   </footer>
 
+  <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+  <script src="paddle-config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
